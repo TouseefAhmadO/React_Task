@@ -1,0 +1,98 @@
+:global(.modal) {
+
+    :global(.modal-dialog) {
+        margin: auto;
+        display: flex;
+        align-items: center;
+
+        :global(.modal-content) {
+            border-radius: 10px;
+            background: #FFF;
+            width: 814px;
+            height: max-content;
+            margin: auto;
+
+            :global(.modal-header) {
+                padding: 32px 26px;
+
+                :global(.modal-title) {
+
+                    h3 {
+                        color: #202223;
+                        font-size: 20px;
+                        font-family: Poppins;
+                    }
+
+                    h2 {
+                        color: #000;
+                        font-size: 14px;
+                        font-family: Poppins;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            :global(.modal-body) {
+                padding: 26px;
+
+                .mailContainer {
+                    display: flex;
+                    align-items: center;
+
+                    .icon {
+                        height: 24px;
+                        width: 24px;
+                        margin-right: 22px;
+                        margin-left: 14px;
+                    }
+
+                    h1 {
+                        color: #000;
+                        font-size: 14px;
+                        font-family: Poppins;
+                        font-weight: bold;
+                    }
+
+                    h2 {
+                        color: #000;
+                        font-size: 14px;
+                        font-family: Poppins;
+                    }
+                }
+
+                :global(.MuiAccordion-root){
+                    box-shadow: none;
+                }
+                :global(.MuiAccordion-root:before){
+                    background-color: white;
+                }
+
+                .exportBtn {
+                    border-radius: 5px;
+                    border: 0px solid;
+                    margin-top: 10px;
+                    background: #28C76F;
+                    color: #FFF;
+                    font-size: 14px;
+                    font-family: Poppins;
+                    font-weight: 600;
+                }
+
+            }
+
+            :global(.modal-footer) {
+
+                .cancelBtn {
+                    border-radius: 5px;
+                    border: 0px solid;
+                    background: #F00;
+                    color: #FFF;
+                    font-size: 14px;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    margin-right: 18px;
+                }
+            }
+        }
+    }
+}

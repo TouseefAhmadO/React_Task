@@ -1,0 +1,123 @@
+.mainContainer {
+    padding: 32px 43px;
+
+    h1 {
+        font-size: 20px;
+        font-family: Poppins;
+        font-weight: 500;
+        color: #202223;
+    }
+
+    .BtnContainer {
+        display: flex;
+        float: right;
+        align-items: center;
+
+        h2 {
+            font-size: 16px;
+            font-family: Poppins;
+            font-weight: 500;
+            margin-bottom: 0px;
+            cursor: pointer;
+            color: #202223;
+            padding-right: 41px;
+        }
+
+        .btnStyle {
+            width: 181px;
+            height: 46px;
+            background-color: #28C76F;
+            border-radius: 5px;
+            color: #FFF;
+            font-size: 16px;
+            font-family: Poppins;
+            font-weight: 600;
+        }
+    }
+
+    .customerContainer {
+        border-radius: 10px;
+        background: #FFF;
+        margin-top: 32px;
+        margin-bottom: 82px;
+        padding: 26px 0px;
+
+        .searchStyle {
+            width: 510px;
+            height: 54px;
+            border-radius: 5px;
+            margin-left: 26px;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+
+            .iconStyle {
+                height: 24px;
+                width: 24px;
+                color: #353535;
+            }
+
+            .inputStyle {
+                border: 0px solid;
+                background-color: transparent;
+                padding: 0px;
+                height: 50px;
+                box-shadow: none;
+                color: #A0A6B1;
+                font-size: 14px;
+                font-family: Poppins;
+                line-height: 20px;
+                letter-spacing: -0.28px;
+            }
+        }
+
+        .sortBtnContainer {
+            .sortBtnStyle {
+                float: right;
+                margin-right: 26px;
+                border-radius: 5px;
+                border: 1px solid rgba(0, 0, 0, 0.06);
+                width: 94px;
+                height: 54px;
+                font-size: 14px;
+                font-family: Poppins;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: -0.28px;
+                color: #202223;
+            }
+        }
+
+    }
+
+    .customerInfoContainer {
+        width: 343px;
+        height: 62px;
+        border-radius: 48px;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+            height: 20px;
+            width: 20px;
+            color: #1B77F2;
+            margin-right: 13px;
+        }
+
+        h1 {
+            color: #353535;
+            font-size: 14px;
+            font-family: Gilroy-Medium;
+            margin-bottom: 0px;
+
+            span {
+                color: #1B77F2;
+            }
+        }
+    }
+}
